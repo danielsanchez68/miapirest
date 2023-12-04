@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso</title>
+</head>
+<body>
+    
+    <h2>Ingrese un producto</h2>
+    <br>
+
+    <form action="/api/productos" method="post">
+        <input type="text" name="nombre" placeholder="Ingrese nombre" required>
+        <input type="text" name="precio" placeholder="Ingrese precio" required>
+        <input type="text" name="stock" placeholder="Ingrese stock" required>
+
+        <button>Enviar</button>
+    </form>
+
+
+</body>
+</html>
